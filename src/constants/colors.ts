@@ -6,6 +6,6 @@ export const colors = {
   darkGreen: '#10782E',
   darkGreenHover: '#295b37',
   lightBlue: '#E1F8FF',
-  progressColor: 'rgb(17, 250, 16, 1)',
+  progressColor: 'rgb(146 250 16)',
   progressBarBackground: '#D9D9D9',
 };

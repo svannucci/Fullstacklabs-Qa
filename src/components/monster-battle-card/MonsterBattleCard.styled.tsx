@@ -10,11 +10,9 @@ import { colors } from '../../constants/colors';
 export const BattleMonsterCard = styled(Card, {
   shouldForwardProp: (prop) => prop !== 'centralized',
 })<{ centralized?: boolean }>(({ centralized }) => ({
-  padding: '13px 11px',
-  width: 'calc(307px - 22px)',
+  width: '307px',
   height: '415px',
   background: colors.white,
-  boxShadow: '-2px 3px 10px rgba(0, 0, 0, 0.25)',
   borderRadius: '7px',
   display: centralized ? 'flex' : 'block',
   flexDirection: 'column',
@@ -38,7 +36,9 @@ export const BattleMonsterImage = styled.img(() => ({
   width: '283px',
   height: '178px',
   filter: 'drop-shadow(0px 0px 10px rgba(0, 0, 0, 0.25))',
-  borderRadius: '7px',
+  borderRadius: '2px',
+  marginLeft: '12px',
+  marginTop: '12px',
 }));
 
 export const ProgressBar = styled(LinearProgress, {
@@ -70,11 +70,13 @@ export const BattleMonsterName = styled(Typography)(() => ({
   color: colors.black,
   padding: '7px 0',
   textAlign: 'left',
+  marginLeft: '12px',
 }));
 
 export const BattleMonsterHorizontalRule = styled.hr(() => ({
-  width: '270px',
+  width: '200px',
   height: '0px',
   border: '1px solid rgba(0, 0, 0, 0.1)',
   marginTop: '-4px',
+  marginLeft: '12px',
 }));

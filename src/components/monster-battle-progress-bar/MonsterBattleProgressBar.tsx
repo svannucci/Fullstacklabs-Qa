@@ -8,13 +8,15 @@ type MonsterBattleProgressBarProps = {
 const progressBar = {
     fontFamily: 'Montserrat',
     margin: '5px 0',
-    fontWeight: '400',
+    fontWeight: '400',  
     fontSize: '12px',
-    lineHeight: '14px'
+    lineHeight: '14px',
+    marginLeft: '12px',
 }
 
 const labelProgressBar = {
-    marginTop: '15px',
+    marginTop: '11px',
+    marginBottom: '5px',
     display: 'block'
 }
 

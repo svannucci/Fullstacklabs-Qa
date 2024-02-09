@@ -7,7 +7,7 @@ export const ListTitle = styled(Typography)(() => ({
   fontStyle: 'normal',
   fontWeight: '400',
   fontSize: '24px',
-  lineHeight: '50px',
+  lineHeight: '28.13px',
   color: colors.black,
   '@media (max-width: 768px)': {
     marginLeft: '30px',
@@ -19,13 +19,13 @@ export const ListTitle = styled(Typography)(() => ({
 export const MonsterCard = styled(Card)<{ selected?: boolean }>(
   ({ selected }) => ({
     background: colors.white,
-    border: selected ? `2px solid ${colors.darkGreen}` : 'none',
+    border: selected ? `2px solid ${colors.progressColor}` : 'none',
     boxShadow: '-2px 3px 50px rgba(0, 0, 0, 0.25)',
     borderRadius: '7px',
     padding: '7px',
     cursor: 'pointer',
     boxSizing: 'border-box',
-    transition: 'all .2s ease-in-out',
+    transition: 'all .0.5s ease-in-out',
     '&:hover': {
       transform: 'scale(1.05)',
     },
@@ -43,7 +43,7 @@ export const MonsterName = styled(Typography)(() => ({
   fontStyle: 'normal',
   fontWeight: '400',
   fontSize: '16px',
-  lineHeight: '22px',
+  lineHeight: '18.75px',
   color: colors.black,
   padding: '7px 0',
   '@media (max-width: 768px)': {

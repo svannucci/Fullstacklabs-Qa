@@ -28,6 +28,7 @@ export const StartBattleButton = styled(Button)(({ disabled }) => ({
   fontWeight: '400',
   fontSize: '18px',
   lineHeight: '21px',
+  boxShadow: '0px 4px 4px rgba(0, 0, 0, 0.25)',
   color: `${colors.white} !important`,
   padding: '12px 30px',
   textTransform: 'capitalize',
